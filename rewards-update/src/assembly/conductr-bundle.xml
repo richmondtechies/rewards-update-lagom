@@ -1,0 +1,34 @@
+<assembly xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.3"
+          xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.3 http://maven.apache.org/xsd/assembly-1.1.3.xsd">
+    <id>conductr-bundle</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <baseDirectory>rewardsupdate-v1</baseDirectory>
+
+    <dependencySets>
+        <dependencySet>
+            <outputDirectory>rewardsupdate/lib</outputDirectory>
+            <outputFileNameMapping>
+                ${artifact.groupId}-${artifact.artifactId}-${artifact.version}${dashClassifier?}.${artifact.extension}
+            </outputFileNameMapping>
+        </dependencySet>
+    </dependencySets>
+
+    <fileSets>
+        <fileSet>
+            <outputDirectory></outputDirectory>
+            <directory>src/bundle</directory>
+            <excludes>
+                <exclude>rewardsupdate/bin/**</exclude>
+            </excludes>
+        </fileSet>
+        <fileSet>
+            <outputDirectory>rewardsupdate/bin</outputDirectory>
+            <directory>src/bundle/rewardsupdate/bin</directory>
+            <fileMode>0755</fileMode>
+        </fileSet>
+    </fileSets>
+
+</assembly>

@@ -1,0 +1,97 @@
+2017-04-09 08:05:20,466 [INFO] from application in main - Creating Pool for datasource 'default'
+2017-04-09 08:05:20,487 [INFO] from com.zaxxer.hikari.HikariDataSource in main - HikariPool-0 - is starting.
+2017-04-09 08:05:20,724 [INFO] from play.api.db.DefaultDBApi in main - Database [default] connected at jdbc:postgresql://127.0.0.1:5433/rewards
+2017-04-09 08:05:21,030 [INFO] from akka.event.slf4j.Slf4jLogger in MyService-akka.actor.default-dispatcher-3 - Slf4jLogger started
+2017-04-09 08:05:21,283 [INFO] from akka.remote.Remoting in MyService-akka.actor.default-dispatcher-3 - Starting remoting
+2017-04-09 08:05:21,387 [INFO] from akka.remote.Remoting in MyService-akka.actor.default-dispatcher-3 - Remoting started; listening on addresses :[akka.tcp://MyService@127.0.0.1:2552]
+2017-04-09 08:05:21,388 [INFO] from akka.remote.Remoting in MyService-akka.actor.default-dispatcher-3 - Remoting now listens on addresses: [akka.tcp://MyService@127.0.0.1:2552]
+2017-04-09 08:05:21,395 [INFO] from akka.cluster.Cluster(akka://MyService) in MyService-akka.actor.default-dispatcher-3 - Cluster Node [akka.tcp://MyService@127.0.0.1:2552] - Starting up...
+2017-04-09 08:05:21,454 [INFO] from akka.cluster.Cluster(akka://MyService) in MyService-akka.actor.default-dispatcher-3 - Cluster Node [akka.tcp://MyService@127.0.0.1:2552] - Registered cluster JMX MBean [akka:type=Cluster]
+2017-04-09 08:05:21,455 [INFO] from akka.cluster.Cluster(akka://MyService) in MyService-akka.actor.default-dispatcher-3 - Cluster Node [akka.tcp://MyService@127.0.0.1:2552] - Started up successfully
+2017-04-09 08:05:21,463 [INFO] from akka.cluster.Cluster(akka://MyService) in MyService-akka.actor.default-dispatcher-4 - Cluster Node [akka.tcp://MyService@127.0.0.1:2552] - No seed-nodes configured, manual cluster join required
+2017-04-09 08:05:21,473 [WARN] from application in main - application.conf @ jar:file:/Users/tki214/workspaces/techtalks/meetup/rewards-update-lagom/rewards-update/target/rewards-update/rewards-update/lib/com.techtalks.meetup-rewards-update-01.00.00.66-SNAPSHOT.jar!/application.conf: 2: ws is deprecated, use play.ws instead
+2017-04-09 08:05:22,053 [INFO] from org.hibernate.validator.internal.util.Version in main - HV000001: Hibernate Validator 5.2.4.Final
+2017-04-09 08:05:22,128 [INFO] from play.api.Play in main - Application started (Prod)
+2017-04-09 08:05:22,217 [INFO] from play.core.server.NettyServer in main - Listening for HTTP on /0:0:0:0:0:0:0:0:11400
+2017-04-09 08:07:02,449 [INFO] from akka.remote.RemoteActorRefProvider$RemotingTerminator in MyService-akka.actor.default-dispatcher-2 - Shutting down remote daemon.
+2017-04-09 08:07:02,454 [INFO] from akka.remote.RemoteActorRefProvider$RemotingTerminator in MyService-akka.actor.default-dispatcher-2 - Remote daemon shut down; proceeding with flushing remote transports.
+2017-04-09 08:07:02,471 [INFO] from akka.remote.Remoting in MyService-akka.actor.default-dispatcher-3 - Remoting shut down
+2017-04-09 08:07:02,472 [INFO] from akka.remote.RemoteActorRefProvider$RemotingTerminator in MyService-akka.actor.default-dispatcher-3 - Remoting shut down.
+2017-04-09 08:07:02,491 [INFO] from application in globalEventExecutor-1-2 - Shutting down connection pool.
+2017-04-09 08:07:02,492 [INFO] from com.zaxxer.hikari.pool.HikariPool in globalEventExecutor-1-2 - HikariPool-0 - is closing down.
+2017-04-09 08:08:08,587 [INFO] from application in main - Creating Pool for datasource 'default'
+2017-04-09 08:08:08,608 [INFO] from com.zaxxer.hikari.HikariDataSource in main - HikariPool-0 - is starting.
+2017-04-09 08:08:08,708 [INFO] from play.api.db.DefaultDBApi in main - Database [default] connected at jdbc:postgresql://127.0.0.1:5433/rewards
+2017-04-09 08:08:09,022 [INFO] from akka.event.slf4j.Slf4jLogger in MyService-akka.actor.default-dispatcher-3 - Slf4jLogger started
+2017-04-09 08:08:09,284 [INFO] from akka.remote.Remoting in MyService-akka.actor.default-dispatcher-3 - Starting remoting
+2017-04-09 08:08:09,391 [INFO] from akka.remote.Remoting in MyService-akka.actor.default-dispatcher-2 - Remoting started; listening on addresses :[akka.tcp://MyService@127.0.0.1:2552]
+2017-04-09 08:08:09,392 [INFO] from akka.remote.Remoting in MyService-akka.actor.default-dispatcher-2 - Remoting now listens on addresses: [akka.tcp://MyService@127.0.0.1:2552]
+2017-04-09 08:08:09,399 [INFO] from akka.cluster.Cluster(akka://MyService) in MyService-akka.actor.default-dispatcher-2 - Cluster Node [akka.tcp://MyService@127.0.0.1:2552] - Starting up...
+2017-04-09 08:08:09,463 [INFO] from akka.cluster.Cluster(akka://MyService) in MyService-akka.actor.default-dispatcher-2 - Cluster Node [akka.tcp://MyService@127.0.0.1:2552] - Registered cluster JMX MBean [akka:type=Cluster]
+2017-04-09 08:08:09,463 [INFO] from akka.cluster.Cluster(akka://MyService) in MyService-akka.actor.default-dispatcher-2 - Cluster Node [akka.tcp://MyService@127.0.0.1:2552] - Started up successfully
+2017-04-09 08:08:09,472 [INFO] from akka.cluster.Cluster(akka://MyService) in MyService-akka.actor.default-dispatcher-4 - Cluster Node [akka.tcp://MyService@127.0.0.1:2552] - No seed-nodes configured, manual cluster join required
+2017-04-09 08:08:09,487 [WARN] from application in main - application.conf @ jar:file:/Users/tki214/workspaces/techtalks/meetup/rewards-update-lagom/rewards-update/target/rewards-update/rewards-update/lib/com.techtalks.meetup-rewards-update-01.00.00.66-SNAPSHOT.jar!/application.conf: 2: ws is deprecated, use play.ws instead
+2017-04-09 08:08:10,100 [INFO] from org.hibernate.validator.internal.util.Version in main - HV000001: Hibernate Validator 5.2.4.Final
+2017-04-09 08:08:10,175 [INFO] from play.api.Play in main - Application started (Prod)
+2017-04-09 08:08:10,268 [INFO] from play.core.server.NettyServer in main - Listening for HTTP on /0:0:0:0:0:0:0:0:11400
+2017-04-09 08:09:42,982 [INFO] from akka.remote.RemoteActorRefProvider$RemotingTerminator in MyService-akka.actor.default-dispatcher-16 - Shutting down remote daemon.
+2017-04-09 08:09:42,984 [INFO] from akka.remote.RemoteActorRefProvider$RemotingTerminator in MyService-akka.actor.default-dispatcher-16 - Remote daemon shut down; proceeding with flushing remote transports.
+2017-04-09 08:09:43,005 [INFO] from akka.remote.Remoting in MyService-akka.actor.default-dispatcher-4 - Remoting shut down
+2017-04-09 08:09:43,005 [INFO] from akka.remote.RemoteActorRefProvider$RemotingTerminator in MyService-akka.actor.default-dispatcher-4 - Remoting shut down.
+2017-04-09 08:09:43,026 [INFO] from application in globalEventExecutor-1-2 - Shutting down connection pool.
+2017-04-09 08:09:43,028 [INFO] from com.zaxxer.hikari.pool.HikariPool in globalEventExecutor-1-2 - HikariPool-0 - is closing down.
+2017-04-09 08:09:50,094 [INFO] from application in main - Creating Pool for datasource 'default'
+2017-04-09 08:09:50,114 [INFO] from com.zaxxer.hikari.HikariDataSource in main - HikariPool-0 - is starting.
+2017-04-09 08:09:50,212 [INFO] from play.api.db.DefaultDBApi in main - Database [default] connected at jdbc:postgresql://127.0.0.1:5433/rewards
+2017-04-09 08:09:50,511 [INFO] from akka.event.slf4j.Slf4jLogger in MyService-akka.actor.default-dispatcher-2 - Slf4jLogger started
+2017-04-09 08:09:50,762 [INFO] from akka.remote.Remoting in MyService-akka.actor.default-dispatcher-2 - Starting remoting
+2017-04-09 08:09:50,864 [INFO] from akka.remote.Remoting in MyService-akka.actor.default-dispatcher-2 - Remoting started; listening on addresses :[akka.tcp://MyService@127.0.0.1:2552]
+2017-04-09 08:09:50,865 [INFO] from akka.remote.Remoting in MyService-akka.actor.default-dispatcher-2 - Remoting now listens on addresses: [akka.tcp://MyService@127.0.0.1:2552]
+2017-04-09 08:09:50,872 [INFO] from akka.cluster.Cluster(akka://MyService) in MyService-akka.actor.default-dispatcher-2 - Cluster Node [akka.tcp://MyService@127.0.0.1:2552] - Starting up...
+2017-04-09 08:09:50,934 [INFO] from akka.cluster.Cluster(akka://MyService) in MyService-akka.actor.default-dispatcher-4 - Cluster Node [akka.tcp://MyService@127.0.0.1:2552] - Registered cluster JMX MBean [akka:type=Cluster]
+2017-04-09 08:09:50,935 [INFO] from akka.cluster.Cluster(akka://MyService) in MyService-akka.actor.default-dispatcher-4 - Cluster Node [akka.tcp://MyService@127.0.0.1:2552] - Started up successfully
+2017-04-09 08:09:50,944 [INFO] from akka.cluster.Cluster(akka://MyService) in MyService-akka.actor.default-dispatcher-14 - Cluster Node [akka.tcp://MyService@127.0.0.1:2552] - No seed-nodes configured, manual cluster join required
+2017-04-09 08:09:50,956 [WARN] from application in main - application.conf @ jar:file:/Users/tki214/workspaces/techtalks/meetup/rewards-update-lagom/rewards-update/target/rewards-update/rewards-update/lib/com.techtalks.meetup-rewards-update-01.00.00.66-SNAPSHOT.jar!/application.conf: 2: ws is deprecated, use play.ws instead
+2017-04-09 08:09:51,527 [INFO] from org.hibernate.validator.internal.util.Version in main - HV000001: Hibernate Validator 5.2.4.Final
+2017-04-09 08:09:51,601 [INFO] from play.api.Play in main - Application started (Prod)
+2017-04-09 08:09:51,687 [INFO] from play.core.server.NettyServer in main - Listening for HTTP on /0:0:0:0:0:0:0:0:11400
+2017-04-09 08:11:02,170 [INFO] from com.techtalks.meetup.com.repo.CardOfferRepositoryImpl in pool-3-thread-1 - initialInsert  SQL IS:INSERT INTO CREDIT_CARD_OFFER_DETAILS(REQUEST_ID, CARDHOLDER_NAME, SSN, DOB, STATUS) VALUES(?,?,?,?,?)
+2017-04-09 08:11:02,185 [INFO] from com.techtalks.meetup.com.actors.ProcessUserRequestsActor in MyService-akka.actor.default-dispatcher-18 - Single Instance crditScoreActor:Actor[akka://MyService/user/$a/$a#1283479995]
+2017-04-09 08:11:02,186 [INFO] from com.techtalks.meetup.com.actors.ProcessUserRequestsActor in MyService-akka.actor.default-dispatcher-18 - Single Instance retrieveLoanHistoryActor:Actor[akka://MyService/user/$a/$b#-2027938886]
+2017-04-09 08:11:02,187 [INFO] from com.techtalks.meetup.com.actors.ProcessUserRequestsActor in MyService-akka.actor.default-dispatcher-18 - Single Instance retrieveCrimeHistDetails:Actor[akka://MyService/user/$a/$c#-1269694539]
+2017-04-09 08:11:02,192 [INFO] from com.techtalks.meetup.com.repo.CardOfferRepositoryImpl in pool-3-thread-1 - successfulUpdate UPDATE SQL IS:update CREDIT_CARD_OFFER_DETAILS set status = ?,  credit_score = ?, loan_hist = ? , crime_hist = ?, approval_status = ?, card_offered = ?, offer_details = ? where request_id =?
+2017-04-09 11:53:42,166 [WARN] from com.zaxxer.hikari.pool.HikariPool in Hikari housekeeper (pool HikariPool-0) - HikariPool-0 - Unusual system clock change detected, soft-evicting connections from pool.
+2017-04-09 13:53:48,574 [WARN] from com.zaxxer.hikari.pool.HikariPool in Hikari housekeeper (pool HikariPool-0) - HikariPool-0 - Unusual system clock change detected, soft-evicting connections from pool.
+2017-04-09 15:28:49,330 [WARN] from com.zaxxer.hikari.pool.HikariPool in Hikari housekeeper (pool HikariPool-0) - HikariPool-0 - Unusual system clock change detected, soft-evicting connections from pool.
+2017-04-09 16:11:53,772 [INFO] from akka.remote.RemoteActorRefProvider$RemotingTerminator in MyService-akka.actor.default-dispatcher-2 - Shutting down remote daemon.
+2017-04-09 16:11:53,774 [INFO] from akka.remote.RemoteActorRefProvider$RemotingTerminator in MyService-akka.actor.default-dispatcher-2 - Remote daemon shut down; proceeding with flushing remote transports.
+2017-04-09 16:11:53,813 [INFO] from akka.remote.Remoting in MyService-akka.actor.default-dispatcher-14 - Remoting shut down
+2017-04-09 16:11:53,814 [INFO] from akka.remote.RemoteActorRefProvider$RemotingTerminator in MyService-akka.actor.default-dispatcher-14 - Remoting shut down.
+2017-04-09 16:11:53,840 [INFO] from application in Thread-2 - Shutting down connection pool.
+2017-04-09 16:11:53,843 [INFO] from com.zaxxer.hikari.pool.HikariPool in Thread-2 - HikariPool-0 - is closing down.
+2017-04-09 16:29:37,688 [INFO] from application in main - Creating Pool for datasource 'default'
+2017-04-09 16:29:37,711 [INFO] from com.zaxxer.hikari.HikariDataSource in main - HikariPool-0 - is starting.
+2017-04-09 16:29:37,845 [INFO] from play.api.db.DefaultDBApi in main - Database [default] connected at jdbc:postgresql://127.0.0.1:5433/rewards
+2017-04-09 16:29:38,188 [INFO] from akka.event.slf4j.Slf4jLogger in MyService-akka.actor.default-dispatcher-2 - Slf4jLogger started
+2017-04-09 16:29:38,498 [INFO] from akka.remote.Remoting in MyService-akka.actor.default-dispatcher-2 - Starting remoting
+2017-04-09 16:29:38,627 [INFO] from akka.remote.Remoting in MyService-akka.actor.default-dispatcher-3 - Remoting started; listening on addresses :[akka.tcp://MyService@127.0.0.1:2552]
+2017-04-09 16:29:38,628 [INFO] from akka.remote.Remoting in MyService-akka.actor.default-dispatcher-3 - Remoting now listens on addresses: [akka.tcp://MyService@127.0.0.1:2552]
+2017-04-09 16:29:38,637 [INFO] from akka.cluster.Cluster(akka://MyService) in MyService-akka.actor.default-dispatcher-3 - Cluster Node [akka.tcp://MyService@127.0.0.1:2552] - Starting up...
+2017-04-09 16:29:38,730 [INFO] from akka.cluster.Cluster(akka://MyService) in MyService-akka.actor.default-dispatcher-3 - Cluster Node [akka.tcp://MyService@127.0.0.1:2552] - Registered cluster JMX MBean [akka:type=Cluster]
+2017-04-09 16:29:38,730 [INFO] from akka.cluster.Cluster(akka://MyService) in MyService-akka.actor.default-dispatcher-3 - Cluster Node [akka.tcp://MyService@127.0.0.1:2552] - Started up successfully
+2017-04-09 16:29:38,739 [INFO] from akka.cluster.Cluster(akka://MyService) in MyService-akka.actor.default-dispatcher-4 - Cluster Node [akka.tcp://MyService@127.0.0.1:2552] - No seed-nodes configured, manual cluster join required
+2017-04-09 16:29:38,756 [WARN] from application in main - application.conf @ jar:file:/Users/tki214/workspaces/techtalks/meetup/rewards-update-lagom/rewards-update/target/rewards-update/rewards-update/lib/com.techtalks.meetup-rewards-update-01.00.00.66-SNAPSHOT.jar!/application.conf: 2: ws is deprecated, use play.ws instead
+2017-04-09 16:29:39,426 [INFO] from org.hibernate.validator.internal.util.Version in main - HV000001: Hibernate Validator 5.2.4.Final
+2017-04-09 16:29:39,516 [INFO] from play.api.Play in main - Application started (Prod)
+2017-04-09 16:29:39,611 [INFO] from play.core.server.NettyServer in main - Listening for HTTP on /0:0:0:0:0:0:0:0:11400
+2017-04-09 16:48:55,246 [INFO] from com.techtalks.meetup.com.repo.CardOfferRepositoryImpl in pool-3-thread-1 - initialInsert  SQL IS:INSERT INTO CREDIT_CARD_OFFER_DETAILS(REQUEST_ID, CARDHOLDER_NAME, SSN, DOB, STATUS) VALUES(?,?,?,?,?)
+2017-04-09 16:48:55,274 [INFO] from com.techtalks.meetup.com.actors.ProcessUserRequestsActor in MyService-akka.actor.default-dispatcher-15 - Single Instance crditScoreActor:Actor[akka://MyService/user/$a/$a#-401879193]
+2017-04-09 16:48:55,275 [INFO] from com.techtalks.meetup.com.actors.ProcessUserRequestsActor in MyService-akka.actor.default-dispatcher-15 - Single Instance retrieveLoanHistoryActor:Actor[akka://MyService/user/$a/$b#-1308271349]
+2017-04-09 16:48:55,276 [INFO] from com.techtalks.meetup.com.actors.ProcessUserRequestsActor in MyService-akka.actor.default-dispatcher-15 - Single Instance retrieveCrimeHistDetails:Actor[akka://MyService/user/$a/$c#-1155415817]
+2017-04-09 16:48:55,281 [INFO] from com.techtalks.meetup.com.repo.CardOfferRepositoryImpl in pool-3-thread-1 - successfulUpdate UPDATE SQL IS:update CREDIT_CARD_OFFER_DETAILS set status = ?,  credit_score = ?, loan_hist = ? , crime_hist = ?, approval_status = ?, card_offered = ?, offer_details = ? where request_id =?
+2017-04-09 16:55:24,321 [INFO] from akka.remote.RemoteActorRefProvider$RemotingTerminator in MyService-akka.actor.default-dispatcher-14 - Shutting down remote daemon.
+2017-04-09 16:55:24,322 [INFO] from akka.remote.RemoteActorRefProvider$RemotingTerminator in MyService-akka.actor.default-dispatcher-14 - Remote daemon shut down; proceeding with flushing remote transports.
+2017-04-09 16:55:24,343 [INFO] from akka.remote.Remoting in MyService-akka.actor.default-dispatcher-17 - Remoting shut down
+2017-04-09 16:55:24,344 [INFO] from akka.remote.RemoteActorRefProvider$RemotingTerminator in MyService-akka.actor.default-dispatcher-17 - Remoting shut down.
+2017-04-09 16:55:24,363 [INFO] from application in globalEventExecutor-1-2 - Shutting down connection pool.
+2017-04-09 16:55:24,364 [INFO] from com.zaxxer.hikari.pool.HikariPool in globalEventExecutor-1-2 - HikariPool-0 - is closing down.
